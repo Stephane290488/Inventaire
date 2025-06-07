@@ -174,4 +174,5 @@ def main_loop():
                 LAST_UPDATE_ID = update["update_id"]
                 message = update.get("message", {})
                 chat_id = message.get("chat", {}).get("id")
-                text = message.get("t
+                text = message.get("t")  # Correct
+
